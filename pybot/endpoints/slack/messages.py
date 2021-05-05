@@ -34,7 +34,7 @@ def not_bot_delete(event: Message):
 async def advertise_pybot(event: Message, app: SirBot):
     response = dict(
         channel=event["channel"],
-        text=f"OC-Community-Bot is a community led project\n <{BOT_URL}|source> ",
+        text=f"VetSec-Community-Bot is a community led project\n <{BOT_URL}|source> ",
     )
 
     await app.plugins["slack"].api.query(methods.CHAT_POST_MESSAGE, data=response)

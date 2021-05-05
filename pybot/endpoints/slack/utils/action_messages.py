@@ -323,8 +323,8 @@ def new_suggestion_text(user_id: str, suggestion: str) -> str:
 
 
 HELP_MENU_RESPONSES = {
-    "slack": "Slack is an online chatroom service that the Operation Code community uses.\n"
-    "It can be accessed online, via https://operation-code.slack.com/ or via\n"
+    "slack": "Slack is an online chatroom service that the VetSec community uses.\n"
+    "It can be accessed online, via https://vetsec.slack.com/ or via\n"
     "desktop or mobile apps, located at https://slack.com/downloads/. In addition to\n"
     "chatting, Slack also allows us to share files, audio conference and even program\n"
     "our own bots! Here are some tips to get you started:\n"
@@ -335,16 +335,16 @@ HELP_MENU_RESPONSES = {
     "It's very friendly for beginners and is great for everything from web development to \n"
     "data science.\n\n"
     "Here are some python resources:\n"
-    "    Operation Code Python Room: <#C04D6M3JT|python>\n"
+    "    VetSec Programming Room: <#CEJ1U2N5T|programming>\n"
     "    Python's official site: https://www.python.org/\n"
     "    Learn Python The Hard Way: https://learnpythonthehardway.org/book/\n"
     "    Automate The Boring Stuff: https://automatetheboringstuff.com/",
-    "mentor": "The Operation Code mentorship program aims to pair you with an experienced developer in order to"
-    " further your programming or career goals. When you sign up for our mentorship program you'll fill"
+    "mentor": "The VetSec mentorship program aims to pair you with an experienced professional in order to"
+    " further your Cyber or career goals. When you sign up for our mentorship program you'll fill"
     " out a form with your interests. You'll then be paired up with an available mentor that best meets"
     " those interests.\n\n"
     "If you're interested in getting paired with a mentor, please fill out our sign up form"
-    " here: http://op.co.de/mentor-request.\n    ",
+    " here: #Need Link Here.\n    ",                                                        ## Need link to mentoree page
     "javascript": "Javascript is a high-level programming language used for general-purpose programming.\n"
     "In recent years it has exploded in popularity and with the popular node.js runtime\n"
     "environment it can run anywhere from the browser to a server.\n\n"
@@ -358,7 +358,7 @@ HELP_MENU_RESPONSES = {
     "web framework 'Rails' which allows people to build websites quickly \n"
     "and easily.\n\n"
     "Here are some ruby resources:\n"
-    "    Operation Code Ruby Room: <#C04D6GTGT|ruby>\n"
+    "    VetSec Programming Room: <#CEJ1U2N5T|programming>\n"
     "    Try Ruby Online: http://tryruby.org/\n"
     "    Learn Ruby The Hard Way: http://ruby.learncodethehardway.org/book\n"
     "    Learn To Program: http://pine.fm/LearnToProgram/\n"

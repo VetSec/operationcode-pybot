@@ -149,7 +149,7 @@ def mentor_volunteer_blocks(skillsets: List[str]) -> List[dict]:
             "text": {
                 "type": "mrkdwn",
                 "text": (
-                    "Thank you for volunteering to be a mentor for the Operation Code community!  If you're looking "
+                    "Thank you for volunteering to be a mentor for the VetSec community!  If you're looking "
                     "for the mentor request form, please use `/mentor` instead."
                 ),
             },

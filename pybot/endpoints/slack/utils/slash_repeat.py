@@ -4,7 +4,7 @@ from typing import Iterable
 # TODO: use the github api to find the file even if location changes
 def find_resources() -> dict:
     return {
-        "link": "https://operationcode.org/resources",
+        "link": "https://veteransec.com/resources/",
         "title": "A searchable database of learning resources",
         "pretext": "Would you like some learning resources?",
     }
@@ -63,16 +63,16 @@ def repeat_items(arguments: list, slack_id: str, channel_id: str) -> dict:
             "title": "Who is that force merging to master?",
             "pretext": "git push -f origin master",
         },
-        "firstpr": {
-            "link": "https://goo.gl/forms/r02wt0pBNhkxYciI3",
-            "title": "Get your sticker here!",
-            "pretext": ":firstpr:",
-        },
-        "channels": {
-            "link": "https://github.com/OperationCode/operationcode_docs/blob/master/community/slack_channel_guide.md",
-            "title": "Channel Guide!",
-            "pretext": "Check out the Channel Guide!",
-        },
+        #"firstpr": {
+        #    "link": "https://goo.gl/forms/r02wt0pBNhkxYciI3",
+        #    "title": "Get your sticker here!",
+        #    "pretext": ":firstpr:",
+        #},
+        #"channels": {
+        #    "link": "https://github.com/OperationCode/operationcode_docs/blob/master/community/slack_channel_guide.md",
+        #    "title": "Channel Guide!",
+        #    "pretext": "Check out the Channel Guide!",
+        #},
         # TODO: make this into a url call.
         "resources": find_resources(),
         "resource": find_resources(),

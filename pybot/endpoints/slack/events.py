@@ -19,7 +19,7 @@ def create_endpoints(plugin):
     plugin.on_event("team_join", team_join, wait=False)
 
 
-async def team_join(event: Event, app: SirBot) -> None:
+async def team_join(event: Event, app: SirBot) -> None:         # Your option if this is kept or not
     """
     Handler for when the Slack workspace has a new member join.
 

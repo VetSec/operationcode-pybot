@@ -50,10 +50,10 @@ async def slash_mentor(command: Command, app: SirBot):
 async def slash_mentor_volunteer(command: Command, app: SirBot) -> None:
 
     response = {
-        "text": "Please fill up the Mentor Sign up Form here: https://op.co.de/volunteer-signup",
-        "channel": command["user_id"],
-        "as_user": True,
-    }
+        "text": "Please fill up the Mentor Sign up Form here: https://op.co.de/volunteer-signup",   # Need Mentor-Volunteer link
+        "channel": command["user_id"],                                                              # points to an airtable form.
+        "as_user": True,                                                                            # Might be able to convert to Slack form?
+    }                                                                                               # Then post the results to Airtable instead
 
     await app.plugins["slack"].api.query(methods.CHAT_POST_MESSAGE, response)
 

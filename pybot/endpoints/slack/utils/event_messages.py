@@ -4,24 +4,28 @@ from typing import List
 def team_join_initial_message(user_id: str) -> str:
     return (
         f"Hi <@{user_id}>,\n\n"
-        "Welcome to Operation Code! I'm a bot designed to help answer questions and "
+        "Welcome to VetSec! I'm a bot designed to help answer questions and "
         "get you on your way in our community.\n\n "
-        "Our goal here at Operation Code is to get veterans and their families started on the path to a career "
-        "in programming. We do that through providing you with scholarships, mentoring, career development "
-        "opportunities, conference tickets, and more!\n"
+
+        # Commenting out while adjusting to VetSec
+        #"Our goal here at Operation Code is to get veterans and their families started on the path to a career "
+        #"in programming. We do that through providing you with scholarships, mentoring, career development "
+        #"opportunities, conference tickets, and more!\n"
     )
 
 
 def second_team_join_message() -> str:
     return (
         "Much of the provided aid requires veteran or military spouse status. Please verify your status on "
-        "your profile at https://operationcode.org/ if you haven't already.\n\n"
-        "You're currently in Slack, a chat application that serves as the hub of Operation Code. "
+        "your profile at https://veteransec.com/ if you haven't already.\n\n"
+        "You're currently in Slack, a chat application that serves as the hub of VetSec. "
         "If you're visiting us via your browser, Slack provides a stand alone program to make staying in "
         "touch even more convenient.\n\n"
-        "All active Operation Code projects are located on our source control repository. "
-        "Our projects can be viewed on GitHub\n\n"
-        "Lastly, please take a moment to review our Code of Conduct."
+
+        # Commenting out while adjusting to VetSec
+        #"All active Operation Code projects are located on our source control repository. "
+        #"Our projects can be viewed on GitHub\n\n"
+        #"Lastly, please take a moment to review our Code of Conduct."
     )
 
 
@@ -39,7 +43,7 @@ def external_button_attachments() -> List[dict]:
                     "text": "GitHub",
                     "type": "button",
                     "value": "github",
-                    "url": "https://github.com/OperationCode",
+                    "url": "https://github.com/VetSec",
                 },
                 {
                     "name": "download",
@@ -53,7 +57,7 @@ def external_button_attachments() -> List[dict]:
                     "text": "Code of Conduct",
                     "type": "button",
                     "value": "code_of_conduct",
-                    "url": "https://github.com/OperationCode/community/blob/master/code_of_conduct.md",
+                    "url": "null" #"https://github.com/OperationCode/community/blob/master/code_of_conduct.md",
                 },
             ],
         }
